@@ -8,3 +8,13 @@ function upperCaseCustomerName() {
 function setBestCustomer() {
   bestCustomer = 'not bob';
 }
+
+function overwriteBestCustomer() {
+  bestCustomer = 'maybe bob';
+}
+
+const leastFavoriteCustomer = 'broke billy';
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = 'broke and stupid billy';
+}
