@@ -8,15 +8,21 @@ function upperCaseCustomerName() {
 }
 
 function setBestCustomer() {
-    var bestCustomer = 'not bob';
+    bestCustomer = 'not bob';
     return bestCustomer;
 }
 
 
 function overwriteBestCustomer() {
-
+    bestCustomer = 'maybe bob'
+    return bestCustomer;
 }
 
-function changeLeastFavoriteCustomer() {
 
+    const leastFavoriteCustomer = 'some initial value'
+
+
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = 'new value'
+    return leastFavoriteCustomer;
 }
